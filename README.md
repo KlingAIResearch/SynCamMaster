@@ -89,7 +89,7 @@ CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7" python train_syncammaster.py   --task dat
 
 You can use video caption tools like [LLaVA](https://github.com/haotian-liu/LLaVA) to generate captions for each video and store them in the ```metadata.csv``` file.
 
-4. Calculate the availble sample list
+4. Calculate the available sample list
 
 ```shell
 python generate_sample_list.py
